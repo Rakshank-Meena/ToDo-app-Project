@@ -1,0 +1,129 @@
+
+
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  height: 10vh;
+  background-color: rgb(34, 34, 29);
+  margin-top: 0%;
+  box-shadow: 0em 0em 1em 1em rgba(39, 37, 37, 0.637);
+  align-items: center;
+  color: rgb(137, 137, 123);
+  font-size: x-large;
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  /* z-index: 1; */
+}
+.iconnote{
+  /* margin-top: 0.7%;
+  margin-right: 0.5%; */
+  font-size: x-large;
+}
+.main{
+  display: flex;
+  flex-flow: row;
+
+}
+.events{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(97, 88, 86, 0.747);
+  height: 90vh;
+  /* z-index: -2; */
+  align-items: center;
+  justify-content: center;
+  font-family: 'Assistant', sans-serif;
+}
+.subtasks{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(48, 41, 38, 0.824);
+  height: 90vh;
+  box-shadow: 0em 0em 3em 0.5em rgba(41, 33, 26, 0.619);
+  font-size: medium;
+  overflow-y: auto;
+  /* z-index: -1; */
+}
+input{
+background-color: rgba(97, 88, 86, 0.276);
+border: none;
+width:30vw;
+font-size: x-large;
+padding:0.3em 0.7em;
+font-family: 'Assistant', sans-serif;
+text-align: center;
+}
+input:focus{
+  outline: none;
+}
+.events-header{
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-bottom: 2.5em;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(62, 55, 46);
+}
+.buttonadd{
+  color: rgb(43, 30, 11);
+  background-color:rgba(30, 20, 16, 0.409) ;
+  border: none;
+  width: 3em;
+  height: 3.4em;
+  cursor: pointer;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listflex{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  font-size: large;
+  margin-top: 2vh;
+  font-weight: 800;
+  text-transform: capitalize;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(29, 29, 20);
+  width:100%;
+  padding-left: 1vh;
+}
+
+.buttons{
+  font-size: medium;
+  width: 10vh;
+  height: 5vh;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin-left: auto;
+}
+.subtask-header{
+  font-size: x-large;
+  color:rgb(27, 25, 14) ;
+  text-transform:capitalize ;
+  font-weight: 700;
+  display: flex;
+  flex-flow: row;
+  margin-top: 1.5vh;
+  width: 100%;
+  justify-content: center;
+  font-family: 'Assistant', sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10vw;
+}
+.clearall{
+  margin-left: auto;
+  cursor: pointer;
+}
